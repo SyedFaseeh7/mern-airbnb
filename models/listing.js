@@ -9,8 +9,8 @@ const listingSchema = new Schema({
     description : String,
     image :{
         type : String,//url.
-        default : "https://unsplash.com/photos/coconut-tree-near-shore-within-mountain-range-RN6ts8IZ4_0",
-        set: (v) => v === "" ? "https://unsplash.com/photos/coconut-tree-near-shore-within-mountain-range-RN6ts8IZ4_0 " : v, 
+        default : "https://images.unsplash.com/photo-1432889490240-84df33d47091?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJlYWNofGVufDB8fDB8fHwy",
+        set: (v) => v === "" ? "https://images.unsplash.com/photo-1432889490240-84df33d47091?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJlYWNofGVufDB8fDB8fHwy" : v, 
     },
     price : Number,
     location : String,
