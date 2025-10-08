@@ -1,5 +1,12 @@
 body{
+      display: flex;
+     flex-direction: column;
+     min-height: 100vh;
      font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  flex: 1;
 }
 
 /*NavBar */
@@ -18,6 +25,7 @@ body{
 }
 
 /* Footer */
+
 .f-info{
     height: 8rem;
     display: flex;
